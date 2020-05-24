@@ -1,2 +1,21 @@
 Home of MineMod V0.0
 First attempt at modding Minecraft V1.15.2
+
+
+SETUP
+Download MDK from https://files.minecraftforge.net/
+Extract to File X
+Open cmd in file X
+Run "gradlew genEclipseRuns"
+Run "gradlew eclpise"
+
+
+ECLIPSE SETUP
+File -> Import
+General -> Existing Projects into Workspace
+Select file X, click finish
+
+Under package manager:
+src/main/java
+  rename com.x.modid to website.modid
+  rename samplemod.java to modidjava
