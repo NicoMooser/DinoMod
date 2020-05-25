@@ -7,7 +7,7 @@ Download MDK from https://files.minecraftforge.net/
 Extract to File X
 Open cmd in file X
 Run "gradlew genEclipseRuns"
-Run "gradlew eclpise"
+Run "gradlew eclipse"
 
 
 ECLIPSE SETUP
